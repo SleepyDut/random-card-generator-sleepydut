@@ -1,5 +1,35 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: green;
+}
+#rcorners1 {
+  border-radius: 25px;
+  background: white;
+  padding: 20px;
+  width: 400px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 5px 5px 5px 5px  rgb(42, 41, 41);
+}
+.fondo-derecha {
+  display: flex;
+  justify-content: end;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+.arriba-izquierda {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.centro {
+  display: flex;
+  justify-content: center;
+  font-weight: 550;
+  font-size: 7rem;
+}
+.palos{
+  font-size: 5rem;
 }
